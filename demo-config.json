@@ -1,7 +1,7 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
+      "commerce-core-endpoint": "https://upgrade-magento-ltxo5bi-37xbp5mgn7pn2.eu-4.magentosite.cloud/graphql",
       "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
       "commerce-assets-enabled": false,
       "headers": {
@@ -33,7 +33,7 @@
       },
       "plugins": {
         "picker": {
-           "rootCategory": "YOUR_ROOT_CATEGORY_ID"
+           "rootCategory": "2"
          }
       }
     }
