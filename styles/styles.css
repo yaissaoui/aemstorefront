@@ -29,13 +29,12 @@
   --color-neutral-900: #000;
   
   /* Couleurs principales Lagostina */
-  --background-color: #ffffff;
-  --text-color: #000000;
+  --background-color: #fff;
+  --text-color: #000;
   --light-color: #f5f5f5;
-  --dark-color: #000000;
+  --dark-color: #000;
   --link-color: var(--color-brand-500);
   --link-hover-color: var(--color-brand-600);
-  
   --color-accent-gold: #c5a059; /* Italy Badge Gold */
   --color-button-active: var(--color-brand-700);
   --color-button-focus: var(--color-brand-300);

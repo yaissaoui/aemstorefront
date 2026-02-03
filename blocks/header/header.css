@@ -14,7 +14,7 @@ header .nav-wrapper {
   z-index: 10;
   position: fixed;
   border-bottom: 1px solid var(--color-neutral-300);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
 }
 
 header nav {
@@ -33,9 +33,11 @@ header nav {
 
 header nav .nav-brand a {
   color: var(--color-neutral-50);
-  font-size: 2.8rem;
+  flex-basis: 128px;
+  font: var(--type-headline-1-font);
+  letter-spacing: 0.1em;
   font-weight: 900;
-  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 header nav .nav-sections ul {
@@ -43,7 +45,9 @@ header nav .nav-sections ul {
   gap: 32px;
   margin: 0;
   list-style: none;
-  font-weight: 600;
+  font: var(--type-body-2-strong-font);
+  letter-spacing: var(--type-body-2-strong-letter-spacing);
+  padding-left: 0;
 }
 
 header nav .nav-sections ul li a {
@@ -59,6 +63,17 @@ header nav .nav-sections ul li a:hover {
   text-decoration: none;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
+header nav .nav-sections ul > li > a {
+  font: var(--type-body-2-strong-font);
+  letter-spacing: var(--type-body-2-strong-letter-spacing);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+header nav .nav-brand a:hover {
+  text-decoration: none;
+}
+
 header nav .nav-tools button {
   color: var(--color-neutral-50) !important;
   filter: invert(1);
@@ -67,6 +82,17 @@ header nav .nav-tools button {
 header nav .nav-tools button.nav-cart-button[data-count]::after {
   background-color: var(--color-brand-500);
   color: var(--color-neutral-50);
+  content: attr(data-count);
+  position: absolute;
+  top: 0;
+  right: -2px;
+  border-radius: 50%;
+  width: 1.75em;
+  height: 1.75em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  justify-content: center;
 }
 
 header nav[aria-expanded='true'] {
@@ -206,13 +232,7 @@ header nav .nav-brand {
   min-width: 128px;
 }
 
-header nav .nav-brand a {
-  color: var(--color-neutral-50);
-  flex-basis: 128px;
-  font: var(--type-headline-1-font);
-  letter-spacing: var(--type-headline-1-letter-spacing);
-  font-weight: bold;
-}
+
 
 li.nav-drop img {
   max-width: var(--desktop-item-panel-max-width);
@@ -239,22 +259,10 @@ header nav[aria-expanded='true'] .nav-sections {
   align-self: start;
 }
 
-header nav .nav-sections ul {
-  font: var(--type-body-2-strong-font);
-  letter-spacing: var(--type-body-2-strong-letter-spacing);
-  list-style: none;
-  padding-left: 0;
-}
+
 
 header nav .nav-sections ul > li,
-header nav .nav-sections ul > li > a {
-  font: var(--type-body-2-strong-font);
-  letter-spacing: var(--type-body-2-strong-letter-spacing);
-}
 
-header nav .nav-brand a:hover {
-  text-decoration: none;
-}
 
 header nav .nav-sections ul > li ul {
   margin-top: 0;
@@ -329,10 +337,21 @@ header nav .nav-sections ul > li:empty {
 
   header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] .submenu-wrapper a {
     color: var(--color-neutral-50);
+    transition: color 0.3s ease, transform 0.2s ease;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] .submenu-wrapper a:hover {
     color: var(--color-neutral-200);
+    transform: translateX(4px);
+  }
+
+  header nav .nav-sections .nav-drop li a {
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+
+  header nav .nav-sections .nav-drop li a:hover {
+    color: var(--color-neutral-300);
+    transform: translateX(4px);
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li .submenu-header {
@@ -369,10 +388,7 @@ header nav .nav-sections ul > li:empty {
     max-width: var(--desktop-item-panel-max-width);
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li:hover,
-  header nav .nav-sections .nav-drop[aria-expanded='true'] {
-    background-color: var(--color-neutral-200);
-  }
+
 }
 
 header nav .nav-tools-panel {
@@ -417,21 +433,7 @@ header nav .nav-tools button.nav-cart-button {
   position: relative;
 }
 
-header nav .nav-tools button.nav-cart-button[data-count]::after {
-  content: attr(data-count);
-  position: absolute;
-  top: 0;
-  right: -2px;
-  background-color: var(--color-brand-700);
-  color: var(--color-neutral-100);
-  border-radius: 50%;
-  width: 1.75em;
-  height: 1.75em;
-  display: flex;
-  align-items: center;
-  font-size: 0.8em;
-  justify-content: center;
-}
+
 
 header nav .nav-tools button.nav-wishlist-button {
   background-image: url('../../icons/heart.svg');

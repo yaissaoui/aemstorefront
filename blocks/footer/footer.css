@@ -76,15 +76,19 @@ footer .footer p {
     list-style-position: inside;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .storeview-selection > li {
+    background-color: var(--color-neutral-100);
     margin-bottom: var(--spacing-small);
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .storeview-multiple-stores > ul {
     position: relative;
     width: 100%;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .storeview-multiple-stores > ul > li {
     list-style: none;
     display: none;
