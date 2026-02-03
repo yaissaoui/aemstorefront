@@ -1,0 +1,19 @@
+
+> @adobe/aem-boilerplate-commerce@4.0.1 start
+> aem up
+
+    ___    ________  ___                          __      __ v16.10.34
+   /   |  / ____/  |/  /  _____(_)___ ___  __  __/ /___ _/ /_____  _____
+  / /| | / __/ / /|_/ /  / ___/ / __ `__ \/ / / / / __ `/ __/ __ \/ ___/
+ / ___ |/ /___/ /  / /  (__  ) / / / / / / /_/ / / /_/ / /_/ /_/ / /
+/_/  |_/_____/_/  /_/  /____/_/_/ /_/ /_/\__,_/_/\__,_/\__/\____/_/
+
+info: Starting AEM dev server v16.10.34
+info: Local AEM dev server up and running: http://localhost:3000/
+info: Enabled reverse proxy to https://main--aemstorefront--yaissaoui.aem.page
+opening default browser: http://localhost:3000/
+warn: [337] Proxy GET request to https://main--aemstorefront--yaissaoui.aem.page/enrichment/enrichment.json?limit=500&offset=0: 404 (text/plain; charset=utf-8)
+warn: [768] Proxy GET request to https://main--aemstorefront--yaissaoui.aem.page/enrichment/enrichment.json?limit=500&offset=0: 404 (text/plain; charset=utf-8)
+warn: [1059] Proxy GET request to https://main--aemstorefront--yaissaoui.aem.page/enrichment/enrichment.json?limit=500&offset=0: 404 (text/plain; charset=utf-8)
+error: failed to proxy AEM request /index.html: unexpected end of file
+info: AEM dev server stopped.

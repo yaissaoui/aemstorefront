@@ -1,40 +1,28 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://upgrade-magento-ltxo5bi-37xbp5mgn7pn2.eu-4.magentosite.cloud/graphql",
-      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
-      "commerce-assets-enabled": false,
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QyHA1HUbXt5J6hX5jPNWXF/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QD1T4hbz1zGxLHYpp8cyPy/graphql",
       "headers": {
-        "all": {
-          "Store": "default"
-        },
         "cs": {
-          "Magento-Store-Code": "default",
-          "Magento-Store-View-Code": "default",
-          "Magento-Website-Code": "base",
-          "x-api-key": "58e30ea1b5364e3dae18e48fb9c60052",
-          "Magento-Environment-Id": "79e846eb-be31-41a5-bdc7-7a6b63132a3a"
+          "AC-View-ID": "ac811597-5f5e-4287-bc16-5731bca7d164",
+          "AC-Price-Book-ID": "default"
         }
       },
+      "commerce-assets-enabled": false,
       "analytics": {
-        "base-currency-code": "USD",
+        "base-currency-code": "EUR",
         "environment": "Testing",
-        "environment-id": "79e846eb-be31-41a5-bdc7-7a6b63132a3a",
-        "store-code": "main_website_store",
-        "store-id": 1,
-        "store-name": "Main Website Store",
-        "store-url": "https://upgrade-magento-ltxo5bi-37xbp5mgn7pn2.eu-4.magentosite.cloud",
-        "store-view-code": "default",
-        "store-view-id": 1,
-        "store-view-name": "Default Store View",
-        "website-code": "base",
-        "website-id": 1,
-        "website-name": "Main Website"
+        "environment-id": "QD1T4hbz1zGxLHYpp8cyPy",
+        "locale": "en-US",
+        "store-url": "https://main--aemstorefront--yaissaoui.aem.live",
+        "store-view-currency-code": "EUR",
+        "view-id": "ac811597-5f5e-4287-bc16-5731bca7d164"
       },
       "plugins": {
         "picker": {
-           "rootCategory": "2"
-         }
+          "rootCategory": "default"
+        }
       }
     }
   }

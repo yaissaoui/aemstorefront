@@ -76,8 +76,8 @@ export default async function decorate(block) {
         { attribute: 'visibility', in: ['Search', 'Catalog, Search'] },
         ...getFilterFromParams(filter),
       ],
-    }).catch(() => {
-      console.error('Error searching for products');
+    }).catch((error) => {
+      console.error('Error searching for products', error);
     });
   } else {
     // If it's a search page...
@@ -90,8 +90,8 @@ export default async function decorate(block) {
         { attribute: 'visibility', in: ['Search', 'Catalog, Search'] },
         ...getFilterFromParams(filter),
       ],
-    }).catch(() => {
-      console.error('Error searching for products');
+    }).catch((error) => {
+      console.error('Error searching for products', error);
     });
   }
 

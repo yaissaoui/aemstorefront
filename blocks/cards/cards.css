@@ -7,25 +7,96 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: var(--spacing-medium);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
 }
 
 .cards > ul > li {
-  border: var(--shape-border-width-1) solid var(--color-neutral-500);
-  background-color: var(--background-color);
+  border: none;
+  background-color: var(--color-neutral-50);
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.cards .cards-card-body {
-  margin: var(--spacing-small);
+.cards > ul > li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
 }
 
 .cards .cards-card-image {
   line-height: 0;
+  overflow: hidden;
+  position: relative;
 }
 
-.cards > ul > li img {
+.cards .cards-card-image img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  padding: 20px;
+  background-color: var(--color-neutral-100);
+  transition: transform 0.6s ease;
+}
+
+.cards > ul > li:hover .cards-card-image img {
+  transform: scale(1.05);
+}
+
+.cards .cards-card-body {
+  margin: 0;
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards .cards-card-body h3 {
+  font-family: var(--type-display-font-family);
+  font-size: 1.8rem;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  color: var(--color-neutral-900);
+}
+
+.cards .cards-card-body p {
+  font-size: 1.4rem;
+  color: var(--color-neutral-600);
+  margin: 0;
+}
+
+.cards .cards-card-body .button-container {
+  margin-top: 20px;
+}
+
+.cards .cards-card-body a.button {
+  width: 100%;
+  background-color: var(--color-neutral-900);
+  color: var(--color-neutral-50);
+  border: none;
+  padding: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.cards .cards-card-body a.button:hover {
+  background-color: var(--color-brand-500);
+}
+
+/* Badge overlay for "Italy" or "Offer" */
+.cards > ul > li::before {
+  content: 'MADE IN ITALY';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--color-accent-gold);
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 1rem;
+  font-weight: 900;
+  z-index: 2;
+  letter-spacing: 0.1em;
 }

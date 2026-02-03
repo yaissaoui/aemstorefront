@@ -1,13 +1,51 @@
 footer {
-    background-color: var(--color-neutral-100);
-    font: var(--type-body-2-default-font);
-    letter-spacing: var(--type-body-2-default-letter-spacing);
+    background-color: var(--color-brand-500);
+    color: var(--color-neutral-50);
+    padding: var(--spacing-large) 0;
+    font-family: var(--type-base-font-family);
 }
 
 footer .footer > div {
     margin: auto;
-    max-width: 1200px;
-    padding: 40px 24px 24px;
+    max-width: 1400px;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+footer .footer a {
+    color: var(--color-neutral-50);
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+footer .footer a:hover {
+    color: var(--color-neutral-50);
+    text-decoration: none;
+    opacity: 1;
+}
+
+footer .footer h3,
+footer .footer h4 {
+    color: var(--color-neutral-50);
+    text-transform: uppercase;
+    font-family: var(--type-display-font-family);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+footer .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer ul li {
+    margin-bottom: 12px;
 }
 
 footer .footer p {

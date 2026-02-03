@@ -8,26 +8,65 @@
 
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--color-brand-500);
+  color: var(--color-neutral-50);
   width: 100%;
-  z-index: 3;
+  z-index: 10;
   position: fixed;
   border-bottom: 1px solid var(--color-neutral-300);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
   box-sizing: border-box;
-  display: grid;
-  grid-template:
-  'hamburger brand tools wrapperPopUpButton' var(--nav-height)
-  'sections sections sections ...' 1fr / auto 1fr auto auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 0 16px;
   margin: auto;
-  max-width: 1248px;
+  max-width: 1500px;
   height: var(--nav-height);
-  padding: 0 24px;
-  font-family: var(--type-base-font-family);
+  padding: 0 40px;
+  font-family: var(--type-display-font-family);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+header nav .nav-brand a {
+  color: var(--color-neutral-50);
+  font-size: 2.8rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+header nav .nav-sections ul {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+header nav .nav-sections ul li a {
+  color: var(--color-neutral-50);
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+  font-weight: 300;
+  text-transform: none;
+}
+
+header nav .nav-sections ul li a:hover {
+  color: var(--color-neutral-200);
+  text-decoration: none;
+}
+
+header nav .nav-tools button {
+  color: var(--color-neutral-50) !important;
+  filter: invert(1);
+}
+
+header nav .nav-tools button.nav-cart-button[data-count]::after {
+  background-color: var(--color-brand-500);
+  color: var(--color-neutral-50);
 }
 
 header nav[aria-expanded='true'] {
@@ -42,10 +81,31 @@ header nav[aria-expanded='true'] {
 @media (min-width: 900px) {
   header nav {
     display: flex;
-    justify-content: space-between;
     gap: 0 32px;
-    max-width: 1264px;
+    max-width: 1500px;
     padding: 0 32px;
+  }
+
+  /* Réorganiser avec flexbox : sections à gauche, brand au centre, tools à droite */
+  header nav .nav-brand {
+    order: 2;
+    flex: 1 1 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav .nav-sections {
+    order: 1;
+    flex: 1 1 0;
+    justify-content: flex-start;
+  }
+
+  header nav .nav-tools {
+    order: 3;
+    flex: 1 1 0;
+    justify-content: flex-end;
   }
 
   header nav[aria-expanded='true'] {
@@ -74,8 +134,8 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--color-neutral-50);
-  color: inherit;
+  background-color: transparent;
+  color: var(--color-neutral-50);
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
@@ -147,7 +207,7 @@ header nav .nav-brand {
 }
 
 header nav .nav-brand a {
-  grid-area: brand;
+  color: var(--color-neutral-50);
   flex-basis: 128px;
   font: var(--type-headline-1-font);
   letter-spacing: var(--type-headline-1-letter-spacing);
@@ -168,7 +228,6 @@ header nav .nav-brand img {
 
 /* sections */
 header nav .nav-sections {
-  grid-area: sections;
   flex: 1 1 auto;
   display: none;
   visibility: hidden;
@@ -256,7 +315,8 @@ header nav .nav-sections ul > li:empty {
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] .submenu-wrapper {
-    background-color: var(--color-neutral-50);
+    background-color: var(--color-brand-500);
+    color: var(--color-neutral-50);
     box-sizing: border-box;
     left: 0;
     max-height: var(--desktop-panel-max-height);
@@ -265,6 +325,14 @@ header nav .nav-sections ul > li:empty {
     position: absolute;
     top: var(--spacing-large);
     width: 100%;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] .submenu-wrapper a {
+    color: var(--color-neutral-50);
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] .submenu-wrapper a:hover {
+    color: var(--color-neutral-200);
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li .submenu-header {
@@ -307,12 +375,12 @@ header nav .nav-sections ul > li:empty {
   }
 }
 
-/* tools */
 header nav .nav-tools-panel {
   z-index: 100;
   position: absolute;
   box-shadow: var(--shape-shadow-2);
-  background: var(--background-color);
+  background: var(--color-brand-500);
+  color: var(--color-neutral-50);
   top: var(--nav-height);
   right: 0;
   width: 100%;
@@ -325,12 +393,10 @@ header nav .nav-tools-panel--show {
 }
 
 header nav .nav-tools {
-  grid-area: tools;
   display: flex;
   height: 100%;
   gap: var(--spacing-small);
   align-items: center;
-  background: var(--background-color);
   z-index: 3;
 }
 
@@ -617,7 +683,7 @@ li
   }
 
   header nav[aria-expanded='true'] .nav-tools {
-    background: var(--background-color);
+    background: var(--color-brand-500);
     bottom: 0;
     height: auto;
     left: 0;
@@ -646,6 +712,7 @@ li
   }
 
   header nav .nav-sections ul li a {
+    color: var(--color-neutral-50);
     font: var(--type-headline-2-default-font);
     letter-spacing: var(--type-headline-2-default-letter-spacing);
   }
@@ -662,6 +729,7 @@ li
   }
 
   header nav .nav-sections ul > li ul > li a {
+    color: var(--color-neutral-50);
     font: var(--type-headline-2-default-font);
     letter-spacing: var(--type-headline-2-default-letter-spacing);
   }
@@ -695,7 +763,8 @@ li
   }
 
   header nav .nav-sections ul > li.nav-drop.active .submenu-wrapper {
-    background: var(--background-color);
+    background: var(--color-brand-500);
+    color: var(--color-neutral-50);
     display: block;
     height: 100%;
     left: 0;
@@ -711,7 +780,7 @@ li
   }
 
   header nav .nav-sections ul > li.nav-drop .submenu-header {
-    background: var(--background-color);
+    background: var(--color-brand-500);
     height: var(--spacing-large);
     left: 0;
     position: fixed;
@@ -721,6 +790,7 @@ li
   }
 
   header nav .nav-sections ul > li.nav-drop .submenu-header .back-link {
+    color: var(--color-neutral-50);
     font: var(--type-body-1-strong-font);
     height: 2.2em;
     letter-spacing: var(--type-body-1-strong-letter-spacing);
@@ -741,6 +811,7 @@ li
   }
 
   header nav .nav-sections ul > li.nav-drop .submenu-title {
+    color: var(--color-neutral-50);
     font: var(--type-body-1-default-font);
     letter-spacing: var(--type-body-1-default-letter-spacing);
     margin-bottom: var(--spacing-small);

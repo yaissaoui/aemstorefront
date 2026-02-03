@@ -1,0 +1,1140 @@
+{
+  "timestamp": "2026-02-03T07:29:51.006Z",
+  "url": "https://lagostina.fr",
+  "header": {
+    "outerHTML": "<section class=\"header scrolled\"><div class=\"top-area\"><nav class=\"primary-menu\"><div class=\"items\"><a>Produits<!-- --> <svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"48\" d=\"m184 112 144 144-144 144\"></path></svg></a><a>La Casa Lagostina<!-- --> <svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"48\" d=\"m184 112 144 144-144 144\"></path></svg></a><a>Services<!-- --> <svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"48\" d=\"m184 112 144 144-144 144\"></path></svg></a><a>Offres Spéciales<!-- --> <svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"48\" d=\"m184 112 144 144-144 144\"></path></svg></a></div></nav><a class=\"logo\" href=\"/\"><svg id=\"Logo_Lagostina\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 774.125 200.642\"><path fill=\"#fff\" d=\"M67.078,133.564v-67.078h10.804v58.249h38.182v8.829h-48.987ZM273.742,126.29v-26.041h-10.113v21.092l-.507.293c-4.239,2.449-9.193,3.691-14.725,3.691-15.062,0-25.994-10.641-25.994-25.303,0-14.897,10.73-25.302,26.093-25.302,7.452,0,13.696,2.455,19.053,7.498l6.687-6.524c-6.267-6.675-15.348-10.197-26.332-10.197-21.093,0-36.403,14.52-36.403,34.526s15.227,34.529,36.206,34.529c9.867,0,19.324-3.006,26.037-8.261ZM363.07,100.378c0-20.005-15.227-34.526-36.205-34.526s-36.206,14.52-36.206,34.526,15.227,34.529,36.206,34.529,36.205-14.522,36.205-34.529ZM352.168,100.378c0,14.662-10.641,25.303-25.303,25.303s-25.303-10.641-25.303-25.303,10.641-25.302,25.303-25.302,25.303,10.641,25.303,25.302ZM430.63,115.553c0-13.604-12.667-16.615-23.842-19.273-8.81-2.095-17.13-4.073-17.13-11.235,0-3.125,1.561-10.395,16.023-10.395,6.141,0,12.684,1.766,18.549,4.99l3.294-8.112c-5.66-3.46-13.712-5.51-21.744-5.51-19.778,0-26.826,10.134-26.826,19.618,0,13.766,12.692,16.791,23.889,19.46,8.836,2.105,17.182,4.094,17.182,11.344,0,3.007-1.59,10.002-16.319,10.002-7.848,0-16.48-2.733-22.402-7.032l-3.606,8.093c5.722,4.548,16.036,7.57,26.008,7.57,16.356,0,26.925-7.662,26.925-19.521ZM477.459,134.144v-58.25h22.905v-8.831h-56.614v8.831h22.905v58.25h10.804ZM529.745,134.086v-67.08h-10.804v67.08h10.804ZM619.551,134.086c1.674-11.058,2.523-22.315,2.523-33.471s-.859-22.479-2.554-33.609h-10.008c1.776,11.09,2.677,22.39,2.677,33.609,0,5.789-.246,11.685-.733,17.521l-.209,2.51-43.682-53.641h-10.738c-1.674,11.058-2.523,22.315-2.523,33.471s.859,22.477,2.554,33.609h10.008c-1.776-11.092-2.677-22.392-2.677-33.609,0-5.789.246-11.684.733-17.521l.209-2.51,43.682,53.641h10.738ZM200.453,133.679c-1.704-10.605-6.829-25.623-11.292-36.116-4.198-9.871-9.967-20.887-16.274-31.08h-14.405c-6.307,10.196-12.077,21.212-16.273,31.08-4.463,10.493-9.589,25.511-11.292,36.116h9.603c1.244-5.048,2.719-10.172,4.387-15.244l.27-.822.855.136c6.372,1.018,12.984,1.534,19.654,1.534s13.292-.516,19.653-1.533l.855-.136.271.822c1.668,5.072,3.143,10.196,4.387,15.243h9.603ZM165.684,73.633l.87,1.446c5.205,8.649,9.75,17.515,13.51,26.354.82,1.929,1.664,4.012,2.58,6.368l.466,1.199-1.274.175c-5.236.719-10.67,1.083-16.151,1.083-5.52,0-10.955-.361-16.155-1.074l-1.275-.174.466-1.2c.918-2.364,1.764-4.45,2.583-6.377,3.759-8.838,8.304-17.704,13.509-26.354l.87-1.446ZM707.047,134.202c-1.704-10.608-6.829-25.625-11.292-36.117-4.197-9.867-9.966-20.884-16.274-31.08h-14.405c-6.309,10.199-12.078,21.215-16.273,31.08-4.463,10.493-9.589,25.511-11.292,36.117h9.603c1.245-5.049,2.719-10.173,4.388-15.245l.271-.822.854.136c6.371,1.018,12.983,1.534,19.653,1.534s13.293-.516,19.653-1.533l.855-.136.271.822c1.67,5.076,3.144,10.2,4.387,15.244h9.603ZM672.278,74.155l.87,1.446c5.206,8.651,9.752,17.518,13.51,26.354.82,1.929,1.664,4.012,2.58,6.368l.466,1.199-1.274.175c-5.234.719-10.667,1.084-16.152,1.084-5.516,0-10.951-.361-16.154-1.075l-1.275-.174.466-1.2c.918-2.364,1.764-4.45,2.583-6.377,3.759-8.838,8.304-17.704,13.509-26.354l.87-1.446Z\"></path><rect width=\"774.125\" height=\"200.642\" fill=\"none\"></rect></svg></a><nav class=\"secondary-menu\"><div class=\"items\"><div class=\"favourite-icons\"><a class=\"\" href=\"/membres/favoris/produits\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0 0 18 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z\"></path></svg></a></div><a class=\"HeaderCartLink-module-scss-module__DIwSMW__container\" href=\"/panier\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"176\" cy=\"416\" r=\"16\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\"></circle><circle cx=\"400\" cy=\"416\" r=\"16\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\"></circle><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M48 80h64l48 272h256\"></path><path fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128\"></path></svg></a><div class=\"HeaderSearchLink-module-scss-module__Z2M1Ja__container\"><label><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"32\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M464 428 339.92 303.9a160.48 160.48 0 0 0 30.72-94.58C370.64 120.37 298.27 48 209.32 48S48 120.37 48 209.32s72.37 161.32 161.32 161.32a160.48 160.48 0 0 0 94.58-30.72L428 464zM209.32 319.69a110.38 110.38 0 1 1 110.37-110.37 110.5 110.5 0 0 1-110.37 110.37z\"></path></svg></label><input></div><button class=\"menu-toggle\"><span></span><span></span></button></div></nav></div><div class=\"bottom-area\"><button class=\"Backdrop-module-scss-module__4vpFgq__backdrop Backdrop-module-scss-module__4vpFgq__opacity modal-backdrop\"></button></div></section>",
+    "styles": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderColor": "rgb(0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "height": "80.2031px",
+      "display": "block",
+      "position": "sticky",
+      "zIndex": "9000",
+      "boxShadow": "none",
+      "fontSize": "16px",
+      "fontFamily": "\"Barlow Condensed\", \"Barlow Condensed Fallback\"",
+      "fontWeight": "300"
+    },
+    "dimensions": {},
+    "classes": [
+      "header",
+      "scrolled"
+    ],
+    "id": ""
+  },
+  "footer": {
+    "outerHTML": "<footer class=\"footer\" id=\"footer\"><div class=\"container\"><!--$--><div class=\"service-icons-container\"><a class=\"\" href=\"/services/expeditions\"><svg id=\"Livello_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 500 500\"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clippath);}.cls-3{fill:#fff;}</style><clipPath id=\"clippath\"><rect class=\"cls-1\" x=\"21.76\" y=\"116.98\" width=\"456.08\" height=\"265.2\"></rect></clipPath></defs><g class=\"cls-2\"><path class=\"cls-3\" d=\"m393.88,382.18c-20.9-.09-39.25-13.92-45.1-33.99l-2.26-7.75h-145.48l-1.14,3.61c-8.01,25.42-23.24,37.78-46.54,37.78-.82,0-1.64,0-2.48-.04-22.74-.84-37.39-13.22-44.78-37.82l-1.1-3.68h-29.67c-4.57.72-8.86-2.4-9.59-6.97-.13-.84-.14-1.7-.01-2.55-.07-8.01-.05-16.17-.04-24.05v-20.9h-5.15c-2.89,0-5.73,0-8.53-.05s-5.52-.05-8.22-.05c-4.3,0-7.83.06-11.11.2h-.86c-3.73.3-7.31-1.51-9.27-4.69-.84-2.56-.84-5.32,0-7.88,2-3.12,5.54-4.9,9.23-4.65.4,0,.81.01,1.23.04,2.19.14,4.53.2,7.35.2,1.88,0,3.75-.03,5.64-.05s3.66-.05,5.48-.05h13.92v-37.53h-5.16c-2.74,0-5.48,0-8.22-.05s-5.41-.05-8.1-.05c-4.2,0-7.67.07-10.86.2h-.99c-3.83.38-7.55-1.45-9.57-4.73-1.02-2.52-1.01-5.34.03-7.86,2.11-3.19,5.79-4.97,9.59-4.64h1.01c3.22.14,6.68.21,10.89.21,2.69,0,5.39,0,8.1-.05s5.43-.05,8.17-.05h5.16v-36.63h-14.16c-15.4,0-15.41-3.69-15.44-8.36,0-3.72.88-5.05,1.55-5.72,4.27-2.48,9.23-3.47,14.13-2.83h14.18v-5.16c0-2.84.04-5.63.08-8.4.09-6.37.18-12.39-.18-18.57-.42-3.02.44-6.09,2.38-8.45,2.61-2.27,6.01-3.42,9.46-3.18,40.31.15,84,.22,133.66.22,38.85,0,78.03-.04,111.23-.09h.18c39.12,0,67.97,16.35,88.22,49.99,8.77,14.6,16.53,27.59,23.68,39.71,1.81,3.48,5.36,5.71,9.27,5.85,19.04,1.78,33.72,17.57,34.1,36.69.07,23.76.05,47.92,0,71.26v10.42c.49,4.61-2.85,8.74-7.46,9.23-.64.07-1.28.06-1.92-.02l-3.64.03c-2.32,0-4.65.05-6.97.05-3.18,0-5.79-.04-8.22-.15h-.59c-4.54-.11-8.49,3.1-9.3,7.58-5.99,20.33-24.6,34.33-45.8,34.44m.49-77.26c-16.49.01-29.95,13.18-30.32,29.67-.11,7.97,3,15.66,8.62,21.32,5.64,5.82,13.39,9.14,21.49,9.19h...",
+    "styles": {
+      "backgroundColor": "rgb(183, 23, 11)",
+      "color": "rgb(255, 255, 255)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderTop": "0px solid rgb(255, 255, 255)"
+    },
+    "links": [
+      {
+        "text": ".cls-1{fill:none;}.cls-2{clip-path:url(#clippath);}.cls-3{fill:#fff;} Expédition sous 24 heures*",
+        "href": "https://www.lagostina.fr/services/expeditions"
+      },
+      {
+        "text": ".st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.3;}\n Retours gratuits",
+        "href": "https://www.lagostina.fr/services/retours"
+      },
+      {
+        "text": ".st0{fill:#FFFFFF;}\n Paiements sécurisés",
+        "href": "https://www.lagostina.fr/services/paiements"
+      },
+      {
+        "text": "Nos collections",
+        "href": "https://www.lagostina.fr/categories-produits/collections"
+      },
+      {
+        "text": "La cucina italiana : saltapasta e pastaiola",
+        "href": "https://www.lagostina.fr/pages/pasta"
+      },
+      {
+        "text": "Poêles, Sauteuses et Wok",
+        "href": "https://www.lagostina.fr/product-categories/poeles-sauteuses-et-wok"
+      },
+      {
+        "text": "Casseroles, Marmites et Faitouts",
+        "href": "https://www.lagostina.fr/product-categories/casseroles-marmites-et-faitouts"
+      },
+      {
+        "text": "Collection Poignée Amovible",
+        "href": "https://www.lagostina.fr/product-category/poeles-casseroles-poignees-amovibles"
+      },
+      {
+        "text": "Batteries de cuisine",
+        "href": "https://www.lagostina.fr/product-categories/batterie-de-cuisine"
+      },
+      {
+        "text": "Autocuiseurs",
+        "href": "https://www.lagostina.fr/product-categories/autocuiseurs"
+      },
+      {
+        "text": "Couteaux de cuisine et Ménagères couverts",
+        "href": "https://www.lagostina.fr/product-categories/couteaux-de-cuisine-et-menagere-couverts"
+      },
+      {
+        "text": "Accessoires",
+        "href": "https://www.lagostina.fr/product-categories/accessoires"
+      },
+      {
+        "text": "Composez votre batterie de cuisine",
+        "href": "https://www.lagostina.fr/pages/my-salvaspazio"
+      },
+      {
+        "text": "Notre histoire",
+        "href": "https://www.lagostina.fr/histoire"
+      },
+      {
+        "text": "Salvaspazio",
+        "href": "https://www.lagostina.fr/pages/poeles-et-casseroles-salvaspazio"
+      },
+      {
+        "text": "L'inox : notre expertise",
+        "href": "https://www.lagostina.fr/pages/poeles-et-casseroles-inox"
+      },
+      {
+        "text": "La cucina italiana : saltapasta e pastaiola",
+        "href": "https://www.lagostina.fr/pages/pasta"
+      },
+      {
+        "text": "La cuisson sous pression",
+        "href": "https://www.lagostina.fr/pages/cuisson-sous-pression"
+      },
+      {
+        "text": "Nos recettes préférées",
+        "href": "https://www.lagostina.fr/recettes"
+      },
+      {
+        "text": "F.A.Q",
+        "href": "https://www.lagostina.fr/pages/faq"
+      },
+      {
+        "text": "Trouver un magasin",
+        "href": "https://www.lagostina.fr/boutiques"
+      },
+      {
+        "text": "Contactez-nous (service client)",
+        "href": "https://www.lagostina.fr/pages/contacts"
+      },
+      {
+        "text": "Paiements",
+        "href": "https://www.lagostina.fr/services/paiements"
+      },
+      {
+        "text": "Retours",
+        "href": "https://www.lagostina.fr/services/retours"
+      },
+      {
+        "text": "Expéditions",
+        "href": "https://www.lagostina.fr/services/expeditions"
+      },
+      {
+        "text": "Garantie",
+        "href": "https://www.lagostina.fr/pages/garantie"
+      },
+      {
+        "text": "Politique de confidentialité",
+        "href": "https://www.lagostina.fr/pages/politique-de-confidentialite"
+      },
+      {
+        "text": "Politique Cookies",
+        "href": "https://www.lagostina.fr/pages/politique-cookies"
+      },
+      {
+        "text": "Conditions Générales d’utilisation",
+        "href": "https://www.lagostina.fr/pages/conditions-generales-utilisation"
+      },
+      {
+        "text": "Conditions générales de vente",
+        "href": "https://www.lagostina.fr/pages/conditions-generales-de-vente"
+      },
+      {
+        "text": "Mentions légales",
+        "href": "https://www.lagostina.fr/pages/mentions-legales"
+      },
+      {
+        "text": "Toutes les offres",
+        "href": "https://www.lagostina.fr/categories-produits/selection-limitee"
+      },
+      {
+        "text": "Construisez votre set",
+        "href": "https://www.lagostina.fr/pages/my-salvaspazio"
+      },
+      {
+        "text": "Lagostina x Simone Zanoni",
+        "href": "https://www.lagostina.fr/pages/zanoni"
+      },
+      {
+        "text": "Meilleures ventes",
+        "href": "https://www.lagostina.fr/categories-produits/meilleures-ventes"
+      },
+      {
+        "text": "Instagram\n\t.st0{fill:#FFFFFF;}",
+        "href": "https://www.instagram.com/lagostinafrance"
+      },
+      {
+        "text": "Youtube\n\t.st0{fill:#FFFFFF;}",
+        "href": "https://www.youtube.com/@lagostinafr2153"
+      }
+    ],
+    "sections": 0
+  },
+  "colors": [
+    {
+      "original": "rgb(255, 255, 255)",
+      "hex": "#ffffff"
+    },
+    {
+      "original": "rgb(0, 0, 0)",
+      "hex": "#000000"
+    },
+    {
+      "original": "rgb(183, 23, 11)",
+      "hex": "#b7170b"
+    },
+    {
+      "original": "rgba(0, 0, 0, 0.4)",
+      "hex": "#0000000004"
+    },
+    {
+      "original": "rgb(245, 245, 245)",
+      "hex": "#f5f5f5"
+    },
+    {
+      "original": "rgba(0, 0, 0, 0)",
+      "hex": "#00000000"
+    },
+    {
+      "original": "rgb(112, 112, 112)",
+      "hex": "#707070"
+    },
+    {
+      "original": "rgb(95, 95, 94)",
+      "hex": "#5f5f5e"
+    },
+    {
+      "original": "rgba(0, 0, 0, 0.5)",
+      "hex": "#0000000005"
+    },
+    {
+      "original": "rgb(105, 105, 105)",
+      "hex": "#696969"
+    },
+    {
+      "original": "rgb(56, 96, 190)",
+      "hex": "#3860be"
+    },
+    {
+      "original": "rgb(189, 18, 26)",
+      "hex": "#bd121a"
+    },
+    {
+      "original": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(233, 233, 233)",
+      "hex": "#000000000000e9e9e9"
+    },
+    {
+      "original": "rgb(85, 85, 85)",
+      "hex": "#555555"
+    },
+    {
+      "original": "rgb(249, 255, 250)",
+      "hex": "#f9fffa"
+    },
+    {
+      "original": "rgb(50, 174, 136)",
+      "hex": "#32ae88"
+    },
+    {
+      "original": "rgb(216, 216, 216)",
+      "hex": "#d8d8d8"
+    },
+    {
+      "original": "rgb(39, 69, 92)",
+      "hex": "#27455c"
+    },
+    {
+      "original": "rgb(233, 233, 233)",
+      "hex": "#e9e9e9"
+    },
+    {
+      "original": "rgb(0, 0, 0) rgb(216, 216, 216) rgb(216, 216, 216)",
+      "hex": "#000000d8d8d8d8d8d8"
+    },
+    {
+      "original": "rgb(70, 130, 84)",
+      "hex": "#468254"
+    },
+    {
+      "original": "rgb(209, 209, 209)",
+      "hex": "#d1d1d1"
+    },
+    {
+      "original": "rgb(187, 187, 187)",
+      "hex": "#bbbbbb"
+    },
+    {
+      "original": "rgb(216, 216, 216) rgb(0, 0, 0) rgb(0, 0, 0)",
+      "hex": "#d8d8d8000000000000"
+    },
+    {
+      "original": "rgb(244, 244, 244)",
+      "hex": "#f4f4f4"
+    },
+    {
+      "original": "rgb(101, 101, 101)",
+      "hex": "#656565"
+    },
+    {
+      "original": "rgb(106, 170, 228)",
+      "hex": "#6aaae4"
+    }
+  ],
+  "productPage": {
+    "title": "",
+    "price": "211,99 €Prix recommandé234,99 € *",
+    "description": "",
+    "images": [
+      "https://t.teads.tv/track?action=pageView&env=js-gtm&tag_version=8.5.0_d71d360&provider=tag&buyer_pixel_id=13065&referer=https%3A%2F%2Fwww.lagostina.fr%2F&user_session_id=d3a03d8a-897f-4c27-a73b-ade12386bc42&hasConsent=true&cht=ot",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fgif_homepage_poignees_salva_d57cd8d57f.gif&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fbanniere_homepage_construisez_votre_batterie_de_cuisine_salvaspazio_9846d381c7.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Flagostina_slide_homepage_bienvenue_01a276264a.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fslider_page_accueil_categorie_pasta_amore_mio_a05c63cb80.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fslider_page_accueil_categorie_salvaspazio_f34a0c30c5.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fslider_page_accueil_categorie_accademia_lagofusion_d96a5e229a.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fslider_page_accueil_categorie_autocuiseurs_2e67bc7fa9.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F66_BA_4547_26_FA_4368_BFBC_213271_AFC_034_f93244c8c2.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FSETTEMPRAINOX_4_PZ_43a42fa75e.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_4_pieces_ceramique_desideria_1_6c405e357d.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_3_poeles_ceramique_avec_protecteurs_desideria_8eb230a4c3.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_4_pieces_effet_pierre_tempra_mineral_1_771690ecab.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_4_poeles_ceramique_avec_protecteurs_desideria_1_5b14b4ddc1.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_de_3_couvercle_inox_accademia_lagofusion_1_27a064d299.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FSETDOLCI_69f0407309.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_de_4_couvercles_en_verre_salvaspazio_1_8f9d5278ca.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_2_casseroles_effet_pierre_avec_couvercle_tempra_mineral_1_5acd0b6262.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F59_AD_9774_9_D87_41_EB_AA_8_CCCEF_4_A63462_F_901ab59628.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fset_2_casseroles_inox_accademia_lagofusion_1_b04a8d0765.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F6_FF_613_EB_8709_412_D_A0955_C8_C41_C7698_B_db298022d9.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMedium_Lagostina_Black_Removable_Handle_37_AD_45c97b89ce.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F456_B8_A67_1_C9_C_4280_87069_BC_4_B1_F7_B491_9c6560fa69.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F66_BA_4547_26_FA_4368_BFBC_213271_AFC_034_f93244c8c2.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F59_AD_9774_9_D87_41_EB_AA_8_CCCEF_4_A63462_F_901ab59628.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F5748133_E_7048_4204_8525_CD_3_FC_385_FC_6_F_8006fdb64b.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F2_F67_F946_9_B89_44_FB_AF_1_C3687_B09_F4_F6_C_e2d035db9b.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2F376_AEA_96_507_A_48_EE_850784_E43888_DFCA_3c90cf66de.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FD2_FA_1591_281_D_4580_9818_F3904287_EB_2_D_c319de29a8.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FAEC_5104_D_AAA_6_4_D9_F_8_BCD_39_B563_A1_BA_8_C_63f514497e.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMedium_Lagostina_Black_Side_Handle_37_AD_1_99b358d4ca.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FC53_E76_DF_C9_A0_48_FB_B02_B8_E4_D56_A4_B482_1e4fdf6d8e.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FMadein_Italy_236b51858d.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FCasseroles_Marmites_et_Faitouts_3576dffa3b.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpoeles_categories_0282b79d13.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FBatterie_e_set_10dfd95bcd_26ffdee7cb.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Famovibles_8eb4bad14b.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpentole_a_pressione_c361af94f3_6f3a8e3436.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fcoltelli_e_posate_6e63e8978e_8bbfe10f3d.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Flagostina_pasta_amore_mio_1_2a8adaf364.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FSALVASPAZIO_5af4eae3ab.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FACCADEMIA_RANGES_1920x1319_765088e336.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FEmozione_c09e23cd29.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2FDesideria_a91a51aec9.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fbanniere_page_categorie_autocuiseurs_a93331dee8.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fcouteaux_et_menageres_couverts_70803f67d7.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fgif_homepage_poignees_salva_d57cd8d57f.gif&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fbienvenue_sur_lagostina_homepage_footer_c57a987959.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fbanniere_homepage_construisez_votre_batterie_de_cuisine_salvaspazio_9846d381c7.jpg&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpayment_visa_0893b8440a.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpayment_mastercard_78d4f47f20.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpayment_amex_d24531a470.png&w=1920&q=75",
+      "https://www.lagostina.fr/_next/image?url=https%3A%2F%2Fcdn.lagostina.fr%2Fuploads%2Fpayment_paypal_137ae1fe85.png&w=1920&q=75",
+      "https://cdn.lagostina.fr/uploads/LOGO_CB_BBR_RVB_BIG_a503faf77a.svg",
+      "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+      "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "classes": [
+          "menu-toggle"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Backdrop-module-scss-module__4vpFgq__backdrop",
+          "Backdrop-module-scss-module__4vpFgq__opacity",
+          "modal-backdrop"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Voir tout",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Voir tout",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowPrev",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowNext",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Voir tout",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Voir tout",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Prix recommandé",
+        "classes": [
+          "ProductPricePopup-module-scss-module__cH_fUG__buttonOpen"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Ajouter au panier",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "full-black"
+        ],
+        "styles": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "Non disponible",
+        "classes": [
+          "default-button",
+          "w-[90%]",
+          "gray-outline"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowPrev",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowNext",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowPrev",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowNext",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowPrev",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "Carousel-module-scss-module__oxeYoq__arrowNext",
+          "Carousel-module-scss-module__oxeYoq__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "index-module-scss-module__cMs80a__arrowPrev",
+          "index-module-scss-module__cMs80a__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "index-module-scss-module__cMs80a__arrowNext",
+          "index-module-scss-module__cMs80a__arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "button-with-arrow"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-close-icon"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__svg-fill"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Tout autoriser",
+        "classes": [],
+        "styles": "rgb(189, 18, 26)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Back Button",
+        "classes": [
+          "ot-link-btn",
+          "back-btn-handler"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Filter Icon",
+        "classes": [],
+        "styles": "rgb(56, 96, 190)"
+      },
+      {
+        "text": "Clear",
+        "classes": [],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Apply",
+        "classes": [],
+        "styles": "rgb(189, 18, 26)"
+      },
+      {
+        "text": "Cancel",
+        "classes": [],
+        "styles": "rgb(189, 18, 26)"
+      },
+      {
+        "text": "Tout refuser",
+        "classes": [
+          "ot-pc-refuse-all-handler"
+        ],
+        "styles": "rgb(189, 18, 26)"
+      },
+      {
+        "text": "Confirmer la sélection",
+        "classes": [
+          "save-preference-btn-handler",
+          "onetrust-close-btn-handler"
+        ],
+        "styles": "rgb(189, 18, 26)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__front",
+          "custom-persistent-icon"
+        ],
+        "styles": "rgb(106, 170, 228)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__open"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__back",
+          "custom-persistent-icon"
+        ],
+        "styles": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__close"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "",
+        "classes": [
+          "ot-floating-button__svg-fill"
+        ],
+        "styles": "rgba(0, 0, 0, 0)"
+      }
+    ]
+  },
+  "listingPage": {
+    "productCards": 5,
+    "filters": 2,
+    "pagination": "Absent"
+  },
+  "cssFiles": [
+    "https://cdn.lagostina.fr/_next/static/chunks/27e171c7f9203f7d.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/5a137331e5594d36.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/7e725cb2f8298d91.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/21689d79b21e02e7.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/c42e55624c158f1e.css?dpl=d-D9MQRJIYE",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/common.css",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/fullscreen.css",
+    "https://cdn.lagostina.fr/_next/static/chunks/f1a335e52dc41a89.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/27e171c7f9203f7d.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/5a137331e5594d36.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/7e725cb2f8298d91.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/21689d79b21e02e7.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/c42e55624c158f1e.css?dpl=d-D9MQRJIYE",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/common.css",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/fullscreen.css",
+    "https://cdn.lagostina.fr/_next/static/chunks/f1a335e52dc41a89.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/27e171c7f9203f7d.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/5a137331e5594d36.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/7e725cb2f8298d91.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/21689d79b21e02e7.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/c42e55624c158f1e.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/f1a335e52dc41a89.css?dpl=d-D9MQRJIYE",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/common.css",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/fullscreen.css",
+    "https://cdn.lagostina.fr/_next/static/chunks/27e171c7f9203f7d.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/5a137331e5594d36.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/7e725cb2f8298d91.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/21689d79b21e02e7.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/c42e55624c158f1e.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/f1a335e52dc41a89.css?dpl=d-D9MQRJIYE",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/common.css",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/fullscreen.css",
+    "https://cdn.lagostina.fr/_next/static/chunks/27e171c7f9203f7d.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/5a137331e5594d36.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/7e725cb2f8298d91.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/21689d79b21e02e7.css?dpl=d-D9MQRJIYE",
+    "https://cdn.lagostina.fr/_next/static/chunks/c42e55624c158f1e.css?dpl=d-D9MQRJIYE",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/common.css",
+    "https://cdn.doofinder.com/livelayer/1.8.25/css/2/fullscreen.css",
+    "https://cdn.lagostina.fr/_next/static/chunks/f1a335e52dc41a89.css?dpl=d-D9MQRJIYE"
+  ],
+  "screenshots": {
+    "homepage_fullpage": "screenshots/homepage-fullpage.png",
+    "homepage_viewport": "screenshots/homepage-viewport.png",
+    "product_page": "screenshots/product-page.png",
+    "listing_page": "screenshots/listing-page.png"
+  }
+}

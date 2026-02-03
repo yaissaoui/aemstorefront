@@ -1,0 +1,188 @@
+/* VARIABLES CSS LAGOSTINA.FR - COULEURS EXACTES */
+
+:root {
+  /* COULEURS PRINCIPALES LAGOSTINA */
+  --lagostina-red-primary: #b7170b;    /* Rouge principal footer/brand */
+  --lagostina-red-accent: #bd121a;     /* Rouge accent boutons/CTA */
+  
+  /* COULEURS DE BASE */
+  --color-black: #000000;              /* Texte principal, boutons */
+  --color-white: #ffffff;              /* Backgrounds, texte sur fond sombre */
+  
+  /* GRIS ET NEUTRES */
+  --color-gray-100: #f5f5f5;          /* Backgrounds très clairs */
+  --color-gray-200: #f4f4f4;          /* Background cards */
+  --color-gray-300: #e9e9e9;          /* Bordures, séparateurs */
+  --color-gray-400: #d8d8d8;          /* Bordures légères */
+  --color-gray-500: #bbbbbb;          /* États désactivés */
+  --color-gray-600: #707070;          /* Texte secondaire */
+  --color-gray-700: #696969;          /* Texte subdued */
+  --color-gray-800: #656565;          /* Texte muted */
+  --color-gray-900: #5f5f5e;          /* Texte tertiaire */
+  
+  /* COULEURS FONCTIONNELLES */
+  --color-success: #32ae88;           /* Validation, succès */
+  --color-info: #3860be;             /* Information, liens */
+  
+  /* TRANSPARENCES */
+  --overlay-dark-40: rgba(0, 0, 0, 0.4);
+  --overlay-dark-50: rgba(0, 0, 0, 0.5);
+  --header-backdrop: rgba(255, 255, 255, 0.95);
+  
+  /* TYPOGRAPHIE */
+  --font-primary: "Barlow Condensed", "Barlow Condensed Fallback", sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+  /* ESPACEMENTS */
+  --header-height: 80.2031px;
+  --header-z-index: 9000;
+  
+  /* BORDERS */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* SHADOWS */
+  --shadow-header: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* CLASSES UTILITAIRES LAGOSTINA */
+
+/* Header styles */
+.lagostina-header {
+  background-color: transparent;
+  color: var(--color-black);
+  height: var(--header-height);
+  position: sticky;
+  top: 0;
+  z-index: var(--header-z-index);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-light);
+  transition: all 0.3s ease;
+}
+
+.lagostina-header.scrolled {
+  background-color: var(--header-backdrop);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-header);
+}
+
+/* Footer styles */
+.lagostina-footer {
+  background-color: var(--lagostina-red-primary);
+  color: var(--color-white);
+}
+
+/* Boutons */
+.btn-lagostina-primary {
+  background-color: var(--lagostina-red-accent);
+  color: var(--color-white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-normal);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-lagostina-primary:hover {
+  background-color: var(--lagostina-red-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.btn-lagostina-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-primary);
+  width: 90%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-lagostina-black:hover {
+  background-color: var(--color-gray-900);
+}
+
+/* Cards produits */
+.product-card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Prix */
+.price-display {
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.price-recommended {
+  color: var(--color-gray-600);
+  text-decoration: line-through;
+  font-size: 0.9em;
+}
+
+/* Navigation */
+.nav-link {
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-light);
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--lagostina-red-primary);
+}
+
+/* Overlays et modales */
+.modal-backdrop {
+  background-color: var(--overlay-dark-50);
+  backdrop-filter: blur(4px);
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .lagostina-header {
+    height: calc(var(--header-height) * 0.8);
+  }
+  
+  .btn-lagostina-black {
+    width: 100%;
+  }
+}
+
+/* States visuels */
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  border: 2px solid var(--lagostina-red-accent);
+}
+
+.success {
+  border: 2px solid var(--color-success);
+}
