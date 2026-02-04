@@ -20,6 +20,7 @@ import {
   decorateLinks,
   loadErrorPage,
 } from './commerce.js';
+import { loadContentfulSection } from './contentful.js';
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -141,6 +142,7 @@ async function loadLazy(doc) {
   if (hash && element) element.scrollIntoView();
 
   loadHeader(doc.querySelector('header'));
+  loadContentfulSection();
   loadFooter(doc.querySelector('footer'));
 
   loadCommerceLazy();
