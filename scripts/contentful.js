@@ -1,23 +1,54 @@
-const CONTENTFUL_SPACE_ID = 'udiawk8vhfaw';
-const CONTENTFUL_ACCESS_TOKEN = 'WXdYN9Lrl8wXy86dP5MF6t-t7FtdegQ7HMtQkTO2DuA';
-const CONTENTFUL_ENVIRONMENT = 'master';
+import { queryApiMesh, resolveImageUrl } from './api-mesh-client.js';
 
-async function fetchFromContentful(contentType, query = {}) {
-  const baseUrl = `https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE_ID}/environments/${CONTENTFUL_ENVIRONMENT}`;
-  const params = new URLSearchParams({
-    access_token: CONTENTFUL_ACCESS_TOKEN,
-    content_type: contentType,
-    limit: 1,
-    ...query,
-  });
+async function fetchFromContentful(contentType, queryParams = {}) {
+  // Build GraphQL query dynamically based on contentType
+  const query = `
+    query Get${contentType}($limit: Int = 1) {
+      ${contentType}Collection(limit: $limit) {
+        items {
+          sys { id }
+          ... on ${contentType} {
+            heroBannerHeadline
+            richText
+            heroBannerImage {
+              url
+            }
+          }
+        }
+      }
+    }
+  `;
 
   try {
-    const response = await fetch(`${baseUrl}/entries?${params}`);
-    if (!response.ok) {
-      throw new Error(`Contentful API error: ${response.status}`);
+    const data = await queryApiMesh(query, { limit: queryParams.limit || 1 });
+
+    if (!data || !data[`${contentType}Collection`]) {
+      return null;
     }
-    const data = await response.json();
-    return data;
+
+    // Transform to match old response format for backward compatibility
+    return {
+      items: data[`${contentType}Collection`].items.map((item) => ({
+        sys: item.sys,
+        fields: {
+          heroBannerHeadline: item.heroBannerHeadline,
+          richText: item.richText,
+          heroBannerImage: item.heroBannerImage,
+        },
+      })),
+      includes: {
+        Asset: data[`${contentType}Collection`].items
+          .filter((item) => item.heroBannerImage)
+          .map((item) => ({
+            sys: { id: item.sys.id },
+            fields: {
+              file: {
+                url: item.heroBannerImage.url?.replace('https:', ''),
+              },
+            },
+          })),
+      },
+    };
   } catch (error) {
     console.error('Error fetching from Contentful:', error);
     return null;
@@ -53,8 +84,7 @@ export async function loadContentfulSection() {
 
     const title = fields.heroBannerHeadline || '';
     const description = fields.richText ? 'Découvrez notre collection premium' : '';
-    const imageId = fields.heroBannerImage?.sys?.id;
-    const imageUrl = resolveAssetUrl(imageId, response.includes);
+    const imageUrl = resolveImageUrl(fields.heroBannerImage?.url);
 
     if (!title && !imageUrl) {
       console.warn('No content to display from Contentful');

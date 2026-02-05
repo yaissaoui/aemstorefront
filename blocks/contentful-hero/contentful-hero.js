@@ -1,50 +1,40 @@
-// Contentful API configuration
-const CONTENTFUL_SPACE_ID = 'udiawk8vhfaw';
-const CONTENTFUL_ACCESS_TOKEN = 'WXdYN9Lrl8wXy86dP5MF6t-t7FtdegQ7HMtQkTO2DuA';
-const CONTENTFUL_ENVIRONMENT = 'master';
+import { queryApiMesh, resolveImageUrl } from '../../scripts/api-mesh-client.js';
 
 /**
- * Fetch data from Contentful API
- * @param {string} contentType - The content type ID
- * @param {Object} query - Additional query parameters
- * @returns {Promise<Object>} - Contentful response
+ * Fetch data from Contentful via API Mesh GraphQL
+ * @param {boolean} isActive - Filter by active status
+ * @param {number} limit - Maximum number of items to return
+ * @returns {Promise<Object|null>} - Homepage hero data
  */
-async function fetchFromContentful(contentType, query = {}) {
-  const baseUrl = `https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE_ID}/environments/${CONTENTFUL_ENVIRONMENT}`;
-  const params = new URLSearchParams({
-    access_token: CONTENTFUL_ACCESS_TOKEN,
-    content_type: contentType,
-    limit: 1,
-    ...query,
-  });
+async function fetchFromContentful(isActive = true, limit = 1) {
+  const query = `
+    query GetHomepageHero($isActive: Boolean = true, $limit: Int = 1) {
+      homepageHeroCollection(where: {isActive: $isActive}, limit: $limit) {
+        items {
+          sys { id }
+          title
+          description
+          image {
+            url
+          }
+          isActive
+        }
+      }
+    }
+  `;
 
   try {
-    const response = await fetch(`${baseUrl}/entries?${params}`);
-    if (!response.ok) {
-      throw new Error(`Contentful API error: ${response.status}`);
+    const data = await queryApiMesh(query, { isActive, limit });
+
+    if (!data || !data.homepageHeroCollection || !data.homepageHeroCollection.items) {
+      return null;
     }
-    const data = await response.json();
-    return data;
+
+    return data.homepageHeroCollection.items[0] || null;
   } catch (error) {
     console.error('Error fetching from Contentful:', error);
     return null;
   }
-}
-
-/**
- * Resolve asset URL from Contentful
- * @param {string} assetId - Asset ID from Contentful
- * @param {Object} includes - Includes object from Contentful response
- * @returns {string} - Asset URL
- */
-function resolveAssetUrl(assetId, includes) {
-  if (!includes?.Asset || !assetId) return '';
-
-  const assetItem = includes.Asset.find((item) => item.sys.id === assetId);
-  if (assetItem?.fields?.file?.url) {
-    return `https:${assetItem.fields.file.url}`;
-  }
-  return '';
 }
 
 /**
@@ -61,23 +51,17 @@ export default async function decorate(block) {
 
   try {
     // Fetch homepage hero content from Contentful
-    const response = await fetchFromContentful('homepageHero', {
-      'fields.isActive': true,
-    });
+    const entry = await fetchFromContentful(true, 1);
 
-    if (!response || !response.items || response.items.length === 0) {
+    if (!entry) {
       block.style.display = 'none';
       return;
     }
 
-    const entry = response.items[0];
-    const { fields } = entry;
-
     // Extract content
-    const title = fields.title || '';
-    const description = fields.description || '';
-    const imageId = fields.image?.sys?.id;
-    const imageUrl = resolveAssetUrl(imageId, response.includes);
+    const title = entry.title || '';
+    const description = entry.description || '';
+    const imageUrl = resolveImageUrl(entry.image);
 
     // Create the HTML structure
     const heroContent = document.createElement('div');
