@@ -5,7 +5,7 @@
  * through Adobe API Mesh, offering centralized authentication and logging.
  */
 
-const API_MESH_ENDPOINT = 'https://191256-189babybluemink.adobeioruntime.net/api/v1/web/gql';
+const API_MESH_ENDPOINT = 'https://edge-graph.adobe.io/api/19833992-3683-4a0b-a2a4-e71a183d70ab/graphql';
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000; // ms
 
