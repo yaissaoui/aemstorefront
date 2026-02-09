@@ -1,15 +1,17 @@
 import { queryApiMesh, resolveImageUrl } from './api-mesh-client.js';
 
 async function fetchFromContentful(contentType, queryParams = {}) {
+  const typeWithUpper = capitalizeFirst(contentType);
+
   // Build GraphQL query dynamically based on contentType
   const query = `
-    query Get${contentType}($limit: Int = 1) {
+    query Get${typeWithUpper}($limit: Int = 1) {
       ${contentType}Collection(limit: $limit) {
         items {
           sys { id }
-          ... on ${contentType} {
+          ... on ${typeWithUpper} {
             heroBannerHeadline
-            richText
+            internalName
             heroBannerImage {
               url
             }
@@ -32,7 +34,7 @@ async function fetchFromContentful(contentType, queryParams = {}) {
         sys: item.sys,
         fields: {
           heroBannerHeadline: item.heroBannerHeadline,
-          richText: item.richText,
+          internalName: item.internalName,
           heroBannerImage: item.heroBannerImage,
         },
       })),
@@ -43,7 +45,7 @@ async function fetchFromContentful(contentType, queryParams = {}) {
             sys: { id: item.sys.id },
             fields: {
               file: {
-                url: item.heroBannerImage.url?.replace('https:', ''),
+                url: item.heroBannerImage.url ? item.heroBannerImage.url : '',
               },
             },
           })),
@@ -53,6 +55,11 @@ async function fetchFromContentful(contentType, queryParams = {}) {
     console.error('Error fetching from Contentful:', error);
     return null;
   }
+}
+
+function capitalizeFirst(str) {
+  if (!str) return str;
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 function resolveAssetUrl(assetId, includes) {
@@ -83,8 +90,8 @@ export async function loadContentfulSection() {
     const { fields } = entry;
 
     const title = fields.heroBannerHeadline || '';
-    const description = fields.richText ? 'Découvrez notre collection premium' : '';
-    const imageUrl = resolveImageUrl(fields.heroBannerImage?.url);
+    const internalName = fields.internalName || '';
+    const imageUrl = resolveImageUrl(fields.heroBannerImage);
 
     if (!title && !imageUrl) {
       console.warn('No content to display from Contentful');
@@ -95,7 +102,7 @@ export async function loadContentfulSection() {
     section.className = 'contentful-section';
     section.innerHTML = `
       <div class="contentful-wrapper">
-        <h2 class="contentful-title">Content from API Contentful</h2>
+        <h2 class="contentful-title">Content from API Mesh (Contentful via GraphQL)</h2>
         <div class="contentful-hero">
           <div class="contentful-hero-content">
             ${imageUrl ? `
@@ -104,8 +111,8 @@ export async function loadContentfulSection() {
               </div>
             ` : ''}
             <div class="contentful-hero-text">
-              ${title ? `<h2>${title}</h2>` : ''}
-              ${description ? `<p>${description}</p>` : ''}
+              <h2>Hero Banner - Headline : ${title}</h2>
+              <h2>Internal name  : ${internalName}</h2>
             </div>
           </div>
         </div>
